@@ -1,0 +1,152 @@
+body {
+
+	background-color: #003566;
+	color: #335c67;
+	font-family: 'Merriweather', serif;
+}
+h1,h2,h4, li {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #013a63;
+}
+
+h3 {
+	color: #ece2d0;
+	
+}
+
+a {
+	color: #941b0c;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 22px
+
+}
+
+strong {
+	color: #003566;
+}
+
+a:hover {
+	color : red;
+}
+
+li {
+	color : #013a63;
+	font-weight: bold
+}
+
+h4 {
+	font-size: 20px
+}
+
+
+.img-round {
+	border-radius: 70%;
+	box-shadow: 0 10px 30px rgba(0,0,0,.7)
+}
+
+.text-centered {
+	text-align: center;
+
+}
+
+.card-beige, .card-blue{
+	text-align: center;
+	background-color: #ece2d0;
+	border: 0,3px solid black;
+	padding: 40px;
+	margin: 80px 120px 80px 120px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.8)
+
+}
+.card-blue{
+	background-color: #000b2e;
+	margin: 10px 200px 10px 200px;
+	padding: 30px;
+	color: #ece2d0;
+	font-weight: bold;
+}
+
+
+.img-centered{
+	padding-bottom: 30px
+}
+
+.fa-linkedin, .fa-facebook-square, .fa-instagram-square{
+	font-size: 70px;
+	letter-spacing: 20px;
+	color: #ece2d0;
+
+}
+
+.fa-linkedin:hover, .fa-facebook-square:hover, .fa-instagram-square:hover{
+	color: #941b0c;
+
+}
+
+.container{
+	width: 1150px;
+	margin: 20px auto;
+}
+
+
+@media (max-width: 1100px){
+	.container{
+		width: 950px;}
+
+	.card-beige{
+		margin: 20px auto;
+		margin-top: 60px;
+	}
+	.card-blue {
+		margin: 40px;
+	}
+	
+}
+
+@media (max-width: 920px){
+	.container{
+		width: 700px;
+		}
+	.card-beige{
+		margin: 30px auto;
+		margin-top: 50px;
+	}
+	.card-blue {
+		margin: 40px;
+	}
+}
+
+@media (max-width: 700px){
+	.container{
+		width: 530px;
+		}
+	.card-beige{
+		margin: 20px auto;
+		margin-top: 40px;
+	}
+	.card-blue {
+		margin: 40px;
+	}
+		
+}
+
+@media (max-width: 520px){
+	.container{
+		width: 420px;
+	}
+	.card-beige{
+		margin: 20px auto;
+	}
+	.card-blue {
+		margin: 40px;
+	}
+
+}
+
+
+
+
+
+
+
